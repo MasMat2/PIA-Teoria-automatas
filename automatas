@@ -1,0 +1,21 @@
+automata para identificar si una palabra pertence al lenguaje de expresion artimeticas
+automata para identificar si un nombre de identificador es valido
+
+automata general
+revisar:
+las lineas esten alineadas a la izquierda
+lineas separadas por un salto
+instrucciones separadas por ;
+solo letras minusculas
+identifacar error lexico o de sintaxis
+
+
+programa final12;
+iniciar
+leer i;
+leer j;
+leer k;
+p := i+j*2;
+q := (p*k)/50;
+imprimir q;
+terminar.

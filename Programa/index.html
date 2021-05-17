@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>automata</title>
+    <link rel="stylesheet" href="./style.css">  
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Shippori+Mincho+B1&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100&family=Tangerine&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <script src="automata.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="loginbox">
+            <h1>ingrese nombre y matricula</h1>
+            <form>
+                <p>nombre</p>
+                <input id="nombre" type="nombre" placeholder="yozedh jahday guerrero ceja" value="yozedh jahday guerrero ceja"
+                    autocomplete="off"></input>
+                <p>matricula</p>
+                <input id="matricula" type="matricula" name="" placeholder="0123456" value="0123456" autocomplete="off"></input>
+                <p>cadena</p>
+                <input id="cadena" type="cadena" name="" placeholder="0123456gcgc0123456cgcgcgcgyozedhyozedh" value="0123456gcgc0123456cgcgcgcgyozedhyozedh"
+                    autocomplete="off"></input>
+                <input type="button" name="" value="revisar" onclick="on_submit()"></input>
+            </form>
+        </div>
+        <div id="result">
+            <p></p>
+        </div>
+    </div>
+</body>
+
+</html>

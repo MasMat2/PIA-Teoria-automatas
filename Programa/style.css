@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-position: center;
+    /* font-family: sans-serif; */
+    /* font-family: 'Shippori Mincho B1', serif; */
+    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Teko', sans-serif; */
+    /* font-family: 'Taviraj', serif; */
+/* font-family: 'Teko', sans-serif; */
+/* font-family: 'Exo', sans-serif; */
+    font-size: 40px;
+}
+
+.loginbox{
+
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 20%;
+    left: 10%;
+    position:absolute;
+    box-sizing: border-box;
+    /* display: none; */
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: 'Exo', sans-serif;
+}
+
+.loginbox input[type="nombre"], input[type="matricula"], input[type="cadena"]
+{
+    border: none;
+    border-bottom: 1px solid #6BE456;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+
+}
+.loginbox input[type="nombre"]{
+    border-bottom: 1px solid #edd500;
+}
+
+.loginbox input[type="matricula"]
+{
+    border-bottom: 1px solid #ff0000;
+}
+
+.loginbox input[type="cadena"]{
+    /* border-bottom: 1px solid #6BE456; */
+    border-bottom: 1px solid #00A8e5;
+}
+
+.loginbox input[type="button"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #6BE456;
+    background: transparent;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    
+
+}
+
+.loginbox input[type="button"]:hover
+{
+    /* height: 50px; */
+    cursor: pointer;
+    /* font-family: 'Tangerine', cursive; */
+    /* font-family: 'Exo', sans-serif; */
+    /* font-size: 50px; */
+    font-weight: bold;
+}
+
+
+
+::placeholder{
+    color: #808080;
+}
+
+#result {
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top:  40%;
+    left: 50%;
+    position:absolute;
+    box-sizing: border-box; 
+    /* display: hidden; */
+}
